@@ -272,8 +272,8 @@ def grafico_pru_por_grupo(df_in, coluna_grupo, titulo, sort_key_func=None):
                 medianprops=dict(color='darkblue', linewidth=2)
             )
 
-    # Linha de corte PRU = 208
-    ax.axhline(y=208, linestyle='--', linewidth=1.5)
+    # Linha de corte PRU = 230
+    ax.axhline(y=230, linestyle='--', linewidth=1.5)
 
     ax.set_ylim(0, 400)
 
